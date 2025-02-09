@@ -1,5 +1,5 @@
 
-[layer map data structure](https://excalidraw.com/#json=89cXQ_yp9A9BQEkI4qHug,rfvmFt8O-jw8JhmNpOxs4g)
+[HistoricLayerCoverage](https://excalidraw.com/#json=89cXQ_yp9A9BQEkI4qHug,rfvmFt8O-jw8JhmNpOxs4g)
 
 From https://neon.tech/blog/persistent-structures-in-neons-wal-indexing
 
@@ -11,3 +11,6 @@ From https://neon.tech/blog/persistent-structures-in-neons-wal-indexing
 > reconstruct the requested data.
 
 
+layer hierarchy
+
+in-memory layer -> frozen layer -> l0 delta layer -> historic layers
